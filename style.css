@@ -135,20 +135,21 @@ p {
 }
 
 .pM__text-block h2,
-.work-together h2 {
+.work-together h2, .choose-plan h2 {
   color: #212529;
   font-size: 72px;
   z-index: 2;
   position: relative;
 }
 .pM__text-block p,
-.work-together p {
+.work-together p, .choose-plan p {
   color: #212529;
   font-size: 18px;
 }
 
 .heading {
   position: relative;
+  width: max-content;
 }
 
 .element {
@@ -159,4 +160,109 @@ p {
 
 .project-managment .img-block {
   width: 748px;
+}
+.choose-plan {
+  background-color: white;
+  height: 1272px;
+}
+
+.free , .organization {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 472px;
+  height: 634px;
+  border-radius: 10px;
+  border: 1px solid #ffe492;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.plans ul {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  list-style: none;
+}
+
+.free button , .organization button {
+  height: 51px;
+  width: 166px;
+  background-color: transparent;
+  border: 1px solid #ffe492;
+  border-radius: 8px;
+}
+
+.price span:nth-child(1){
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.price span:nth-child(2){
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.price span:nth-child(3){
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.plans ul li{
+    font-size: 16px;
+}
+
+.personal{
+    width: 472px;
+    height: 762px;
+    background-color: #043873;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 44px;
+    color: white;
+    gap: 25px;
+    border-radius: 10px;
+}
+
+.personal span:nth-child(2){
+    color: #ffe492;
+}
+
+.personal button{
+    height: 51px;
+  width: 166px;
+  border-radius: 8px;
+  background-color: #4f9cf9;
+  color: white;
+  border: 0;
+}
+
+.subscriptions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.choose-plan h2 , .choose-plan p{
+    text-align: center;
+}
+
+.choose-plan .heading{
+    margin: 0 auto;
+}
+
+.choose-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
