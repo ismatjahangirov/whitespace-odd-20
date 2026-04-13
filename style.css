@@ -46,6 +46,7 @@ header{
   background-color: #ffe492;
   border: none;
   border-radius: 8px;
+  font-size: 18px;
 }
 .blue-btn {
   width: 227px;
@@ -53,6 +54,7 @@ header{
   background-color: #4f9cf9;
   border-radius: 8px;
   border: 0;
+  font-size: 18px;
 }
 
 .header__nav{
@@ -109,3 +111,50 @@ display: flex;
 align-items: center;
 }
 
+
+
+.project-managment{
+    height: 760px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.project-managment .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.pM__text-block{
+    max-width: 672px;
+
+}
+
+.pM__text-block h2{
+    color: #212529;
+    font-size: 72px;
+    z-index: 2;
+    position: relative;
+}
+.pM__text-block p{
+    color: #212529;
+    font-size: 18px;
+}
+
+.heading{
+    position: relative;
+}
+
+.element{
+    position: absolute;
+bottom: -10px;
+z-index: 1;
+
+}
+
+.project-managment .img-block{
+    width: 748px;
+}
